@@ -1,6 +1,6 @@
 const sizeButtons = document.querySelectorAll('.size');
 
-function generateGrid(size = 32 * 44, cssClass = 'medium-grid-default') {       //gfhrthhj
+function generateGrid(size = 32 * 44, cssClass = 'medium-grid-default') {       
   const gameContainer = document.getElementById('grid-container');
 
   gameContainer.innerHTML = '';
@@ -30,7 +30,7 @@ function startPainting() {
       item.addEventListener('mouseenter', (e) => {
         
           e.target.style.backgroundColor = '#707070';
-          e.target.style.opacity = 1;                                   //giugtitgiygtiyg
+          e.target.style.opacity = 1;                                 
       });
     });
   }
@@ -43,7 +43,7 @@ function startPainting() {
     button.classList.add('active-button');
   }
 
-  function changeSize() {                                                  //gyhguyhgiuiuh
+  function changeSize() {                                                  
     const small = 16 * 22;
     const medium = 32 * 44;
     const big = 64 * 88;
